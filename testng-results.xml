@@ -1,129 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-28T11:19:16 IST" name="Suite" finished-at="2024-06-28T11:20:27 IST" duration-ms="71356">
+  <suite started-at="2024-06-28T12:01:34 IST" name="Suite" finished-at="2024-06-28T12:02:47 IST" duration-ms="73220">
     <groups>
     </groups>
-    <test started-at="2024-06-28T11:19:16 IST" name="Test" finished-at="2024-06-28T11:20:27 IST" duration-ms="71356">
+    <test started-at="2024-06-28T12:01:34 IST" name="Test" finished-at="2024-06-28T12:02:47 IST" duration-ms="73220">
       <class name="com.akhilsystem_release.test.emr.DoctorAssign">
-        <test-method is-config="true" signature="launch()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T11:19:16 IST" name="launch" finished-at="2024-06-28T11:19:21 IST" duration-ms="5490" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T12:01:34 IST" name="launch" finished-at="2024-06-28T12:01:38 IST" duration-ms="3965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T11:19:21 IST" name="setup" finished-at="2024-06-28T11:19:22 IST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T12:01:38 IST" name="setup" finished-at="2024-06-28T12:01:38 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openAppointment()[pri:1, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T11:19:22 IST" name="openAppointment" finished-at="2024-06-28T11:19:31 IST" duration-ms="9345" status="PASS">
+        <test-method signature="openAppointment()[pri:1, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T12:01:38 IST" name="openAppointment" finished-at="2024-06-28T12:01:47 IST" duration-ms="8849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAppointment -->
-        <test-method signature="fstDoctorAppointment()[pri:2, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T11:19:31 IST" name="fstDoctorAppointment" finished-at="2024-06-28T11:19:46 IST" duration-ms="15292" status="PASS">
+        <test-method signature="fstDoctorAppointment()[pri:2, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T12:01:47 IST" name="fstDoctorAppointment" finished-at="2024-06-28T12:02:02 IST" duration-ms="15390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fstDoctorAppointment -->
-        <test-method signature="closeAppointment()[pri:3, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T11:19:46 IST" name="closeAppointment" finished-at="2024-06-28T11:19:49 IST" duration-ms="3076" status="PASS">
+        <test-method signature="closeAppointment()[pri:3, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T12:02:02 IST" name="closeAppointment" finished-at="2024-06-28T12:02:06 IST" duration-ms="3079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAppointment -->
-        <test-method signature="fstDoctorLogin()[pri:4, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T11:19:49 IST" name="fstDoctorLogin" finished-at="2024-06-28T11:20:09 IST" duration-ms="19997" status="PASS">
+        <test-method signature="fstDoctorLogin()[pri:4, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T12:02:06 IST" name="fstDoctorLogin" finished-at="2024-06-28T12:02:26 IST" duration-ms="20349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fstDoctorLogin -->
-        <test-method signature="assignToDoctor()[pri:5, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T11:20:09 IST" name="assignToDoctor" finished-at="2024-06-28T11:20:11 IST" duration-ms="1124" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Assigned successfully] but found [Updated Successfully]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Assigned successfully] but found [Updated Successfully]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at com.akhilsystem_release.test.emr.DoctorAssign.assignToDoctor(DoctorAssign.java:125)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at com.akhilsystem_release.test.emr.TestRunner.main(TestRunner.java:49)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="assignToDoctor()[pri:5, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T12:02:26 IST" name="assignToDoctor" finished-at="2024-06-28T12:02:29 IST" duration-ms="3131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignToDoctor -->
-        <test-method signature="assignedDocLogin()[pri:6, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T11:20:11 IST" name="assignedDocLogin" finished-at="2024-06-28T11:20:21 IST" duration-ms="10150" status="PASS">
+        <test-method signature="assignedDocLogin()[pri:6, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T12:02:29 IST" name="assignedDocLogin" finished-at="2024-06-28T12:02:39 IST" duration-ms="10140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignedDocLogin -->
-        <test-method signature="verifySndDoctorData()[pri:7, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T11:20:21 IST" name="verifySndDoctorData" finished-at="2024-06-28T11:20:24 IST" duration-ms="2878" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [041328] but found [362867]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [041328] but found [362867]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at com.akhilsystem_release.test.emr.DoctorAssign.verifySndDoctorData(DoctorAssign.java:146)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at com.akhilsystem_release.test.emr.TestRunner.main(TestRunner.java:49)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifySndDoctorData()[pri:7, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T12:02:39 IST" name="verifySndDoctorData" finished-at="2024-06-28T12:02:44 IST" duration-ms="4369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySndDoctorData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T11:20:24 IST" name="teardown" finished-at="2024-06-28T11:20:27 IST" duration-ms="3623" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-06-28T12:02:44 IST" name="teardown" finished-at="2024-06-28T12:02:47 IST" duration-ms="3638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

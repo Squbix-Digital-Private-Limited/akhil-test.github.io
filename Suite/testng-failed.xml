@@ -10,6 +10,7 @@
         <methods>
           <include name="launch"/>
           <include name="assignToDoctor"/>
+          <include name="assignedDocLogin"/>
           <include name="verifySndDoctorData"/>
           <include name="setup"/>
           <include name="teardown"/>
