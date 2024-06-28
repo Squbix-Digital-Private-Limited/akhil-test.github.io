@@ -9,80 +9,20 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">62,742</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">78,138</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.akhilsystem_release.test.emr.DoctorAssign</td><td><a href="#m0">assignToDoctor</a></td><td rowspan="1">1719551419313</td><td rowspan="1">2</td></tr><tr class="failedeven"><td><a href="#m1">assignedDocLogin</a></td><td rowspan="1">1719551419316</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m2">verifySndDoctorData</a></td><td rowspan="1">1719551419317</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.akhilsystem_release.test.emr.DoctorAssign</td><td><a href="#m3">closeAppointment</a></td><td rowspan="1">1719551392443</td><td rowspan="1">3076</td></tr><tr class="passedeven"><td><a href="#m4">fstDoctorAppointment</a></td><td rowspan="1">1719551375564</td><td rowspan="1">16878</td></tr><tr class="passedeven"><td><a href="#m5">fstDoctorLogin</a></td><td rowspan="1">1719551395520</td><td rowspan="1">23792</td></tr><tr class="passedeven"><td><a href="#m6">openAppointment</a></td><td rowspan="1">1719551365635</td><td rowspan="1">9923</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.akhilsystem_release.test.emr.DoctorAssign</td><td><a href="#m0">assignToDoctor</a></td><td rowspan="1">1719551589701</td><td rowspan="1">1153</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.akhilsystem_release.test.emr.DoctorAssign</td><td><a href="#m1">assignedDocLogin</a></td><td rowspan="1">1719551590855</td><td rowspan="1">11740</td></tr><tr class="passedeven"><td><a href="#m2">closeAppointment</a></td><td rowspan="1">1719551564073</td><td rowspan="1">3598</td></tr><tr class="passedeven"><td><a href="#m3">fstDoctorAppointment</a></td><td rowspan="1">1719551547636</td><td rowspan="1">16435</td></tr><tr class="passedeven"><td><a href="#m4">fstDoctorLogin</a></td><td rowspan="1">1719551567671</td><td rowspan="1">22029</td></tr><tr class="passedeven"><td><a href="#m5">openAppointment</a></td><td rowspan="1">1719551537720</td><td rowspan="1">9903</td></tr><tr class="passedeven"><td><a href="#m6">verifySndDoctorData</a></td><td rowspan="1">1719551602596</td><td rowspan="1">4763</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.akhilsystem_release.test.emr.DoctorAssign#assignToDoctor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {using=xpath, value=//div[text()=&apos;Assign to&apos;]/..//div[text()=&apos;Dr. Rahul Mohapatra&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/wl/7sn2nymj28l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52942}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52942/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.akhilsystem_release.base.web_elements.WebElements.waitForElement(WebElements.java:23)
-	at com.akhilsystem_release.test.emr.DoctorAssign.assignToDoctor(DoctorAssign.java:122)
+<h2>Test</h2><h3 id="m0">com.akhilsystem_release.test.emr.DoctorAssign#assignToDoctor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Assigned successfully] but found [Updated Successfully]
+	at com.akhilsystem_release.test.emr.DoctorAssign.assignToDoctor(DoctorAssign.java:125)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at com.akhilsystem_release.test.emr.TestRunner.main(TestRunner.java:49)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.akhilsystem_release.test.emr.DoctorAssign#assignedDocLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/wl/7sn2nymj28l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52942}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52942/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1163)
-	at com.akhilsystem_release.base.Base.isAlertPresent(Base.java:39)
-	at com.akhilsystem_release.test.emr.DoctorAssign.assignedDocLogin(DoctorAssign.java:130)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at com.akhilsystem_release.test.emr.TestRunner.main(TestRunner.java:49)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.akhilsystem_release.test.emr.DoctorAssign#verifySndDoctorData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {using=xpath, value=//div[text()=&apos;Automation Test Webpart&apos;]/../..//input[@type=&apos;number&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/wl/7sn2nymj28l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52942}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52942/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.akhilsystem_release.base.web_elements.WebElements.waitForElement(WebElements.java:23)
-	at com.akhilsystem_release.base.web_elements.WebElements.scrollToElement(WebElements.java:47)
-	at com.akhilsystem_release.test.emr.DoctorAssign.verifySndDoctorData(DoctorAssign.java:145)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at com.akhilsystem_release.test.emr.TestRunner.main(TestRunner.java:49)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.akhilsystem_release.test.emr.DoctorAssign#closeAppointment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.akhilsystem_release.test.emr.DoctorAssign#fstDoctorAppointment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.akhilsystem_release.test.emr.DoctorAssign#fstDoctorLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.akhilsystem_release.test.emr.DoctorAssign#openAppointment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.akhilsystem_release.test.emr.DoctorAssign#assignedDocLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.akhilsystem_release.test.emr.DoctorAssign#closeAppointment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.akhilsystem_release.test.emr.DoctorAssign#fstDoctorAppointment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.akhilsystem_release.test.emr.DoctorAssign#fstDoctorLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.akhilsystem_release.test.emr.DoctorAssign#openAppointment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.akhilsystem_release.test.emr.DoctorAssign#verifySndDoctorData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
