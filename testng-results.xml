@@ -1,68 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="19" passed="16" failed="3" skipped="0">
+<testng-results ignored="0" total="19" passed="15" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-01T17:06:04 IST" name="Suite" finished-at="2024-07-01T17:09:04 IST" duration-ms="180009">
+  <suite started-at="2024-07-01T17:14:35 IST" name="Suite" finished-at="2024-07-01T17:17:53 IST" duration-ms="198316">
     <groups>
     </groups>
-    <test started-at="2024-07-01T17:06:04 IST" name="Test1" finished-at="2024-07-01T17:07:02 IST" duration-ms="58258">
+    <test started-at="2024-07-01T17:14:35 IST" name="Test1" finished-at="2024-07-01T17:15:50 IST" duration-ms="75042">
       <class name="com.akhilsystem_release.test.emr.DoctorAssign">
-        <test-method is-config="true" signature="launch()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:06:04 IST" name="launch" finished-at="2024-07-01T17:06:09 IST" duration-ms="4757" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:14:35 IST" name="launch" finished-at="2024-07-01T17:14:41 IST" duration-ms="5766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:06:09 IST" name="setup" finished-at="2024-07-01T17:06:10 IST" duration-ms="463" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:14:41 IST" name="setup" finished-at="2024-07-01T17:14:41 IST" duration-ms="429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openAppointment()[pri:1, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:06:10 IST" name="openAppointment" finished-at="2024-07-01T17:06:19 IST" duration-ms="9445" status="PASS">
+        <test-method signature="openAppointment()[pri:1, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:14:41 IST" name="openAppointment" finished-at="2024-07-01T17:14:50 IST" duration-ms="9378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAppointment -->
-        <test-method signature="fstDoctorAppointment()[pri:2, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:06:19 IST" name="fstDoctorAppointment" finished-at="2024-07-01T17:06:36 IST" duration-ms="16847" status="PASS">
+        <test-method signature="fstDoctorAppointment()[pri:2, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:14:50 IST" name="fstDoctorAppointment" finished-at="2024-07-01T17:15:06 IST" duration-ms="15554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fstDoctorAppointment -->
-        <test-method signature="closeAppointment()[pri:3, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:06:36 IST" name="closeAppointment" finished-at="2024-07-01T17:06:39 IST" duration-ms="3081" status="PASS">
+        <test-method signature="closeAppointment()[pri:3, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:15:06 IST" name="closeAppointment" finished-at="2024-07-01T17:15:10 IST" duration-ms="3587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAppointment -->
-        <test-method signature="fstDoctorLogin()[pri:4, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:06:39 IST" name="fstDoctorLogin" finished-at="2024-07-01T17:06:59 IST" duration-ms="19982" status="PASS">
+        <test-method signature="fstDoctorLogin()[pri:4, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:15:10 IST" name="fstDoctorLogin" finished-at="2024-07-01T17:15:30 IST" duration-ms="20521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fstDoctorLogin -->
-        <test-method signature="assignToDoctor()[pri:5, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:06:59 IST" name="assignToDoctor" finished-at="2024-07-01T17:06:59 IST" duration-ms="1" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
+        <test-method signature="assignToDoctor()[pri:5, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:15:30 IST" name="assignToDoctor" finished-at="2024-07-01T17:15:31 IST" duration-ms="1131" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {value=//div[text()='Assign to']/..//div[text()='Dr. Ayaan Singh'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/wl/7sn2nymj28l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53867/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+              <![CDATA[expected [Assigned successfully] but found [Updated Successfully]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {value=//div[text()='Assign to']/..//div[text()='Dr. Ayaan Singh'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/wl/7sn2nymj28l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53867/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at com.akhilsystem_release.base.web_elements.WebElements.waitForElement(WebElements.java:23)
-at com.akhilsystem_release.test.emr.DoctorAssign.assignToDoctor(DoctorAssign.java:122)
+              <![CDATA[java.lang.AssertionError: expected [Assigned successfully] but found [Updated Successfully]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.akhilsystem_release.test.emr.DoctorAssign.assignToDoctor(DoctorAssign.java:125)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -78,172 +60,164 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:1583)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignToDoctor -->
-        <test-method signature="verifySndDoctorData()[pri:7, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:06:59 IST" name="verifySndDoctorData" finished-at="2024-07-01T17:06:59 IST" duration-ms="1" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {value=//div[text()='Automation Test Webpart']/../..//input[@type='number'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/wl/7sn2nymj28l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53867/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {value=//div[text()='Automation Test Webpart']/../..//input[@type='number'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/wl/7sn2nymj28l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53867/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at com.akhilsystem_release.base.web_elements.WebElements.waitForElement(WebElements.java:23)
-at com.akhilsystem_release.base.web_elements.WebElements.scrollToElement(WebElements.java:47)
-at com.akhilsystem_release.test.emr.DoctorAssign.verifySndDoctorData(DoctorAssign.java:145)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySndDoctorData -->
-        <test-method signature="assignedDocLogin()[pri:6, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:06:59 IST" name="assignedDocLogin" finished-at="2024-07-01T17:06:59 IST" duration-ms="0" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/wl/7sn2nymj28l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53867/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/wl/7sn2nymj28l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53867/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1163)
-at com.akhilsystem_release.base.Base.isAlertPresent(Base.java:39)
-at com.akhilsystem_release.test.emr.DoctorAssign.assignedDocLogin(DoctorAssign.java:130)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        <test-method signature="assignedDocLogin()[pri:6, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:15:31 IST" name="assignedDocLogin" finished-at="2024-07-01T17:15:42 IST" duration-ms="10647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignedDocLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:06:59 IST" name="teardown" finished-at="2024-07-01T17:07:02 IST" duration-ms="3506" status="PASS">
+        <test-method signature="verifySndDoctorData()[pri:7, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:15:42 IST" name="verifySndDoctorData" finished-at="2024-07-01T17:15:46 IST" duration-ms="4278" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [870107] but found [241250]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [870107] but found [241250]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.akhilsystem_release.test.emr.DoctorAssign.verifySndDoctorData(DoctorAssign.java:146)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySndDoctorData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@61009542]" started-at="2024-07-01T17:15:46 IST" name="teardown" finished-at="2024-07-01T17:15:50 IST" duration-ms="3627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.akhilsystem_release.test.emr.DoctorAssign -->
     </test> <!-- Test1 -->
-    <test started-at="2024-07-01T17:07:03 IST" name="Test2" finished-at="2024-07-01T17:09:04 IST" duration-ms="121309">
+    <test started-at="2024-07-01T17:15:50 IST" name="Test2" finished-at="2024-07-01T17:17:53 IST" duration-ms="122887">
       <class name="com.akhilsystem_release.test.emr.VisitWiseWebpart">
-        <test-method is-config="true" signature="launch()[pri:0, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:07:03 IST" name="launch" finished-at="2024-07-01T17:07:07 IST" duration-ms="3758" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:15:50 IST" name="launch" finished-at="2024-07-01T17:15:54 IST" duration-ms="3903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="openAppointment()[pri:1, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:07:07 IST" name="openAppointment" finished-at="2024-07-01T17:07:15 IST" duration-ms="8786" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openAppointment -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:07:07 IST" name="setup" finished-at="2024-07-01T17:07:07 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:15:54 IST" name="setup" finished-at="2024-07-01T17:15:54 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="firstDoctor()[pri:2, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:07:15 IST" name="firstDoctor" finished-at="2024-07-01T17:07:34 IST" duration-ms="18587" status="PASS">
+        <test-method signature="openAppointment()[pri:1, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:15:54 IST" name="openAppointment" finished-at="2024-07-01T17:16:03 IST" duration-ms="8792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppointment -->
+        <test-method signature="firstDoctor()[pri:2, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:16:03 IST" name="firstDoctor" finished-at="2024-07-01T17:16:22 IST" duration-ms="19003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstDoctor -->
-        <test-method signature="secondDoctor()[pri:3, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:07:34 IST" name="secondDoctor" finished-at="2024-07-01T17:07:49 IST" duration-ms="15054" status="PASS">
+        <test-method signature="secondDoctor()[pri:3, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:16:22 IST" name="secondDoctor" finished-at="2024-07-01T17:16:37 IST" duration-ms="15042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondDoctor -->
-        <test-method signature="thirdDoctor()[pri:4, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:07:49 IST" name="thirdDoctor" finished-at="2024-07-01T17:08:04 IST" duration-ms="14790" status="PASS">
+        <test-method signature="thirdDoctor()[pri:4, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:16:37 IST" name="thirdDoctor" finished-at="2024-07-01T17:16:53 IST" duration-ms="15917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdDoctor -->
-        <test-method signature="closeAppointment()[pri:5, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:08:04 IST" name="closeAppointment" finished-at="2024-07-01T17:08:07 IST" duration-ms="3084" status="PASS">
+        <test-method signature="closeAppointment()[pri:5, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:16:53 IST" name="closeAppointment" finished-at="2024-07-01T17:16:56 IST" duration-ms="3075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAppointment -->
-        <test-method signature="fstDoctorLogin()[pri:6, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:08:07 IST" name="fstDoctorLogin" finished-at="2024-07-01T17:08:19 IST" duration-ms="11637" status="PASS">
+        <test-method signature="fstDoctorLogin()[pri:6, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:16:56 IST" name="fstDoctorLogin" finished-at="2024-07-01T17:17:08 IST" duration-ms="12131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fstDoctorLogin -->
-        <test-method signature="fillFstDoctorData()[pri:7, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:08:19 IST" name="fillFstDoctorData" finished-at="2024-07-01T17:08:26 IST" duration-ms="6974" status="PASS">
+        <test-method signature="fillFstDoctorData()[pri:7, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:17:08 IST" name="fillFstDoctorData" finished-at="2024-07-01T17:17:14 IST" duration-ms="6449" status="FAIL">
+          <exception class="com.akhilsystem_release.base.Base$CustomException">
+            <message>
+              <![CDATA[Data not updated successfully. Expected message: 'Updated Successfully', but received: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.akhilsystem_release.base.Base$CustomException: Data not updated successfully. Expected message: 'Updated Successfully', but received: 
+at com.akhilsystem_release.test.emr.VisitWiseWebpart.fillFstDoctorData(VisitWiseWebpart.java:144)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.akhilsystem_release.base.Base$CustomException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillFstDoctorData -->
-        <test-method signature="sndDoctorLogin()[pri:8, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:08:26 IST" name="sndDoctorLogin" finished-at="2024-07-01T17:08:37 IST" duration-ms="11113" status="PASS">
+        <test-method signature="sndDoctorLogin()[pri:8, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:17:14 IST" name="sndDoctorLogin" finished-at="2024-07-01T17:17:25 IST" duration-ms="10645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sndDoctorLogin -->
-        <test-method signature="verifyFstDoctorData()[pri:9, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:08:37 IST" name="verifyFstDoctorData" finished-at="2024-07-01T17:08:41 IST" duration-ms="4155" status="PASS">
+        <test-method signature="verifyFstDoctorData()[pri:9, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:17:25 IST" name="verifyFstDoctorData" finished-at="2024-07-01T17:17:28 IST" duration-ms="3312" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1729] but found [361210]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1729] but found [361210]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.akhilsystem_release.test.emr.VisitWiseWebpart.verifyFstDoctorData(VisitWiseWebpart.java:161)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFstDoctorData -->
-        <test-method signature="fillSndDoctorData()[pri:10, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:08:41 IST" name="fillSndDoctorData" finished-at="2024-07-01T17:08:44 IST" duration-ms="3038" status="PASS">
+        <test-method signature="fillSndDoctorData()[pri:10, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:17:28 IST" name="fillSndDoctorData" finished-at="2024-07-01T17:17:32 IST" duration-ms="3559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillSndDoctorData -->
-        <test-method signature="trdDoctorLogin()[pri:11, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:08:44 IST" name="trdDoctorLogin" finished-at="2024-07-01T17:08:54 IST" duration-ms="10433" status="PASS">
+        <test-method signature="trdDoctorLogin()[pri:11, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:17:32 IST" name="trdDoctorLogin" finished-at="2024-07-01T17:17:43 IST" duration-ms="11097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trdDoctorLogin -->
-        <test-method signature="verifySndDoctorData()[pri:12, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:08:54 IST" name="verifySndDoctorData" finished-at="2024-07-01T17:08:59 IST" duration-ms="4252" status="PASS">
+        <test-method signature="verifySndDoctorData()[pri:12, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:17:43 IST" name="verifySndDoctorData" finished-at="2024-07-01T17:17:47 IST" duration-ms="4312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySndDoctorData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:08:59 IST" name="teardown" finished-at="2024-07-01T17:09:04 IST" duration-ms="5643" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@2aece37d]" started-at="2024-07-01T17:17:47 IST" name="teardown" finished-at="2024-07-01T17:17:53 IST" duration-ms="5641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

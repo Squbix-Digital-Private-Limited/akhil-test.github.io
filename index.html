@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">19 methods, 3 failed,   16 passed</span>
+                    <span class="method-stats">19 methods, 4 failed,   15 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -108,7 +108,12 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.akhilsystem_release.test.emr.DoctorAssign" class="method navigator-link" hash-for-method="assignedDocLogin">assignedDocLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.akhilsystem_release.test.emr.VisitWiseWebpart" class="method navigator-link" hash-for-method="fillFstDoctorData">fillFstDoctorData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.akhilsystem_release.test.emr.VisitWiseWebpart" class="method navigator-link" hash-for-method="verifyFstDoctorData">verifyFstDoctorData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -127,17 +132,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.akhilsystem_release.test.emr.DoctorAssign" class="method navigator-link" hash-for-method="assignedDocLogin">assignedDocLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.akhilsystem_release.test.emr.DoctorAssign" class="method navigator-link" hash-for-method="closeAppointment">closeAppointment</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.akhilsystem_release.test.emr.VisitWiseWebpart" class="method navigator-link" hash-for-method="closeAppointment">closeAppointment</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.akhilsystem_release.test.emr.VisitWiseWebpart" class="method navigator-link" hash-for-method="fillFstDoctorData">fillFstDoctorData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -197,11 +202,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.akhilsystem_release.test.emr.VisitWiseWebpart" class="method navigator-link" hash-for-method="verifyFstDoctorData">verifyFstDoctorData</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.akhilsystem_release.test.emr.VisitWiseWebpart" class="method navigator-link" hash-for-method="verifySndDoctorData">verifySndDoctorData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -220,6 +220,42 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">com.akhilsystem_release.test.emr.VisitWiseWebpart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillFstDoctorData">
+                  </a> <!-- fillFstDoctorData -->
+                  <span class="method-name">fillFstDoctorData</span>
+                  <div class="stack-trace">com.akhilsystem_release.base.Base$CustomException: Data not updated successfully. Expected message: &apos;Updated Successfully&apos;, but received: 
+	at com.akhilsystem_release.test.emr.VisitWiseWebpart.fillFstDoctorData(VisitWiseWebpart.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFstDoctorData">
+                  </a> <!-- verifyFstDoctorData -->
+                  <span class="method-name">verifyFstDoctorData</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1729] but found [361210]
+	at com.akhilsystem_release.test.emr.VisitWiseWebpart.verifyFstDoctorData(VisitWiseWebpart.java:161)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">com.akhilsystem_release.test.emr.DoctorAssign</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -228,58 +264,12 @@
                   <a name="assignToDoctor">
                   </a> <!-- assignToDoctor -->
                   <span class="method-name">assignToDoctor</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {value=//div[text()=&apos;Assign to&apos;]/..//div[text()=&apos;Dr. Ayaan Singh&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/wl/7sn2nymj28l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53867/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.akhilsystem_release.base.web_elements.WebElements.waitForElement(WebElements.java:23)
-	at com.akhilsystem_release.test.emr.DoctorAssign.assignToDoctor(DoctorAssign.java:122)
+                  <div class="stack-trace">java.lang.AssertionError: expected [Assigned successfully] but found [Updated Successfully]
+	at com.akhilsystem_release.test.emr.DoctorAssign.assignToDoctor(DoctorAssign.java:125)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 10 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="assignedDocLogin">
-                  </a> <!-- assignedDocLogin -->
-                  <span class="method-name">assignedDocLogin</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/wl/7sn2nymj28l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53867/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1163)
-	at com.akhilsystem_release.base.Base.isAlertPresent(Base.java:39)
-	at com.akhilsystem_release.test.emr.DoctorAssign.assignedDocLogin(DoctorAssign.java:130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 10 stack frames
+... Removed 16 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -288,32 +278,12 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
                   <a name="verifySndDoctorData">
                   </a> <!-- verifySndDoctorData -->
                   <span class="method-name">verifySndDoctorData</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {value=//div[text()=&apos;Automation Test Webpart&apos;]/../..//input[@type=&apos;number&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /var/folders/wl/7sn2nymj28l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53867/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.akhilsystem_release.base.web_elements.WebElements.waitForElement(WebElements.java:23)
-	at com.akhilsystem_release.base.web_elements.WebElements.scrollToElement(WebElements.java:47)
-	at com.akhilsystem_release.test.emr.DoctorAssign.verifySndDoctorData(DoctorAssign.java:145)
+                  <div class="stack-trace">java.lang.AssertionError: expected [870107] but found [241250]
+	at com.akhilsystem_release.test.emr.DoctorAssign.verifySndDoctorData(DoctorAssign.java:146)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 10 stack frames
+... Removed 16 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -330,13 +300,6 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
                   <a name="closeAppointment">
                   </a> <!-- closeAppointment -->
                   <span class="method-name">closeAppointment</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="fillFstDoctorData">
-                  </a> <!-- fillFstDoctorData -->
-                  <span class="method-name">fillFstDoctorData</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -397,13 +360,6 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFstDoctorData">
-                  </a> <!-- verifyFstDoctorData -->
-                  <span class="method-name">verifyFstDoctorData</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifySndDoctorData">
                   </a> <!-- verifySndDoctorData -->
                   <span class="method-name">verifySndDoctorData</span>
@@ -417,6 +373,13 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
               <span class="class-name">com.akhilsystem_release.test.emr.DoctorAssign</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assignedDocLogin">
+                  </a> <!-- assignedDocLogin -->
+                  <span class="method-name">assignedDocLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="closeAppointment">
@@ -514,79 +477,79 @@ data.addRows(19);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'fstDoctorLogin')
 data.setCell(0, 2, 'com.akhilsystem_release.test.emr.DoctorAssign')
-data.setCell(0, 3, 19982);
+data.setCell(0, 3, 20521);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'firstDoctor')
 data.setCell(1, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
-data.setCell(1, 3, 18587);
+data.setCell(1, 3, 19003);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'fstDoctorAppointment')
-data.setCell(2, 2, 'com.akhilsystem_release.test.emr.DoctorAssign')
-data.setCell(2, 3, 16847);
+data.setCell(2, 1, 'thirdDoctor')
+data.setCell(2, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
+data.setCell(2, 3, 15917);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'secondDoctor')
-data.setCell(3, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
-data.setCell(3, 3, 15054);
+data.setCell(3, 1, 'fstDoctorAppointment')
+data.setCell(3, 2, 'com.akhilsystem_release.test.emr.DoctorAssign')
+data.setCell(3, 3, 15554);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'thirdDoctor')
+data.setCell(4, 1, 'secondDoctor')
 data.setCell(4, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
-data.setCell(4, 3, 14790);
+data.setCell(4, 3, 15042);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'fstDoctorLogin')
 data.setCell(5, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
-data.setCell(5, 3, 11637);
+data.setCell(5, 3, 12131);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'sndDoctorLogin')
+data.setCell(6, 1, 'trdDoctorLogin')
 data.setCell(6, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
-data.setCell(6, 3, 11113);
+data.setCell(6, 3, 11097);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'trdDoctorLogin')
-data.setCell(7, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
-data.setCell(7, 3, 10433);
+data.setCell(7, 1, 'assignedDocLogin')
+data.setCell(7, 2, 'com.akhilsystem_release.test.emr.DoctorAssign')
+data.setCell(7, 3, 10647);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'openAppointment')
-data.setCell(8, 2, 'com.akhilsystem_release.test.emr.DoctorAssign')
-data.setCell(8, 3, 9445);
+data.setCell(8, 1, 'sndDoctorLogin')
+data.setCell(8, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
+data.setCell(8, 3, 10645);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'openAppointment')
-data.setCell(9, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
-data.setCell(9, 3, 8786);
+data.setCell(9, 2, 'com.akhilsystem_release.test.emr.DoctorAssign')
+data.setCell(9, 3, 9378);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'fillFstDoctorData')
+data.setCell(10, 1, 'openAppointment')
 data.setCell(10, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
-data.setCell(10, 3, 6974);
+data.setCell(10, 3, 8792);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifySndDoctorData')
+data.setCell(11, 1, 'fillFstDoctorData')
 data.setCell(11, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
-data.setCell(11, 3, 4252);
+data.setCell(11, 3, 6449);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyFstDoctorData')
+data.setCell(12, 1, 'verifySndDoctorData')
 data.setCell(12, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
-data.setCell(12, 3, 4155);
+data.setCell(12, 3, 4312);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'closeAppointment')
-data.setCell(13, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
-data.setCell(13, 3, 3084);
+data.setCell(13, 1, 'verifySndDoctorData')
+data.setCell(13, 2, 'com.akhilsystem_release.test.emr.DoctorAssign')
+data.setCell(13, 3, 4278);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'closeAppointment')
 data.setCell(14, 2, 'com.akhilsystem_release.test.emr.DoctorAssign')
-data.setCell(14, 3, 3081);
+data.setCell(14, 3, 3587);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'fillSndDoctorData')
 data.setCell(15, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
-data.setCell(15, 3, 3038);
+data.setCell(15, 3, 3559);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'assignToDoctor')
-data.setCell(16, 2, 'com.akhilsystem_release.test.emr.DoctorAssign')
-data.setCell(16, 3, 1);
+data.setCell(16, 1, 'verifyFstDoctorData')
+data.setCell(16, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
+data.setCell(16, 3, 3312);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'verifySndDoctorData')
-data.setCell(17, 2, 'com.akhilsystem_release.test.emr.DoctorAssign')
-data.setCell(17, 3, 1);
+data.setCell(17, 1, 'closeAppointment')
+data.setCell(17, 2, 'com.akhilsystem_release.test.emr.VisitWiseWebpart')
+data.setCell(17, 3, 3075);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'assignedDocLogin')
+data.setCell(18, 1, 'assignToDoctor')
 data.setCell(18, 2, 'com.akhilsystem_release.test.emr.DoctorAssign')
-data.setCell(18, 3, 0);
+data.setCell(18, 3, 1131);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -624,108 +587,110 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">4768 ms</span>
+                <span class="method-start">5778 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">openAppointment</span>
-                <span class="method-start">5235 ms</span>
+                <span class="method-start">6211 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fstDoctorAppointment</span>
-                <span class="method-start">14694 ms</span>
+                <span class="method-start">15600 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">closeAppointment</span>
-                <span class="method-start">31542 ms</span>
+                <span class="method-start">31155 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fstDoctorLogin</span>
-                <span class="method-start">34624 ms</span>
+                <span class="method-start">34743 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">assignToDoctor</span>
-                <span class="method-start">54607 ms</span>
+                <span class="method-start">55265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assignedDocLogin</span>
+                <span class="method-start">56397 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifySndDoctorData</span>
-                <span class="method-start">54609 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">assignedDocLogin</span>
-                <span class="method-start">54609 ms</span>
+                <span class="method-start">67045 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">54610 ms</span>
+                <span class="method-start">71324 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.akhilsystem_release.test.emr.VisitWiseWebpart</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">launch</span>
-                <span class="method-start">58559 ms</span>
+                <span class="method-start">75338 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">62318 ms</span>
+                <span class="method-start">79242 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">openAppointment</span>
-                <span class="method-start">62318 ms</span>
+                <span class="method-start">79243 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">firstDoctor</span>
-                <span class="method-start">71106 ms</span>
+                <span class="method-start">88036 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">secondDoctor</span>
-                <span class="method-start">89693 ms</span>
+                <span class="method-start">107040 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">thirdDoctor</span>
-                <span class="method-start">104747 ms</span>
+                <span class="method-start">122082 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">closeAppointment</span>
-                <span class="method-start">119538 ms</span>
+                <span class="method-start">137999 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fstDoctorLogin</span>
-                <span class="method-start">122622 ms</span>
+                <span class="method-start">141074 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">fillFstDoctorData</span>
-                <span class="method-start">134259 ms</span>
+                <span class="method-start">153206 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sndDoctorLogin</span>
-                <span class="method-start">141234 ms</span>
+                <span class="method-start">159655 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyFstDoctorData</span>
-                <span class="method-start">152347 ms</span>
+                <span class="method-start">170300 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fillSndDoctorData</span>
-                <span class="method-start">156502 ms</span>
+                <span class="method-start">173614 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">trdDoctorLogin</span>
-                <span class="method-start">159540 ms</span>
+                <span class="method-start">177173 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifySndDoctorData</span>
-                <span class="method-start">169973 ms</span>
+                <span class="method-start">188271 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">174225 ms</span>
+                <span class="method-start">192584 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

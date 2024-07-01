@@ -10,7 +10,6 @@
         <methods>
           <include name="launch"/>
           <include name="assignToDoctor"/>
-          <include name="assignedDocLogin"/>
           <include name="verifySndDoctorData"/>
           <include name="setup"/>
           <include name="teardown"/>
@@ -18,4 +17,17 @@
       </class> <!-- com.akhilsystem_release.test.emr.DoctorAssign -->
     </classes>
   </test> <!-- Test1(failed) -->
+  <test thread-count="2" parallel="classes" name="Test2(failed)">
+    <classes>
+      <class name="com.akhilsystem_release.test.emr.VisitWiseWebpart">
+        <methods>
+          <include name="launch"/>
+          <include name="setup"/>
+          <include name="fillFstDoctorData"/>
+          <include name="teardown"/>
+          <include name="verifyFstDoctorData"/>
+        </methods>
+      </class> <!-- com.akhilsystem_release.test.emr.VisitWiseWebpart -->
+    </classes>
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->
