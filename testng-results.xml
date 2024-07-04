@@ -1,93 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-03T10:26:14 IST" name="Suite" finished-at="2024-07-03T10:27:27 IST" duration-ms="72885">
+  <suite started-at="2024-07-04T09:53:05 IST" name="Suite" finished-at="2024-07-04T09:55:04 IST" duration-ms="118626">
     <groups>
     </groups>
-    <test started-at="2024-07-03T10:26:14 IST" name="Test" finished-at="2024-07-03T10:27:27 IST" duration-ms="72885">
-      <class name="com.akhilsystem_release.test.emr.DoctorAssign">
-        <test-method is-config="true" signature="launch()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-07-03T10:26:14 IST" name="launch" finished-at="2024-07-03T10:26:18 IST" duration-ms="4201" status="PASS">
+    <test started-at="2024-07-04T09:53:05 IST" name="Test" finished-at="2024-07-04T09:55:04 IST" duration-ms="118626">
+      <class name="com.akhilsystem_release.test.emr.VisitWiseWebpart">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:53:06 IST" name="launch" finished-at="2024-07-04T09:53:10 IST" duration-ms="4800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-07-03T10:26:18 IST" name="setup" finished-at="2024-07-03T10:26:19 IST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:53:10 IST" name="setup" finished-at="2024-07-04T09:53:11 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openAppointment()[pri:1, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-07-03T10:26:19 IST" name="openAppointment" finished-at="2024-07-03T10:26:28 IST" duration-ms="8877" status="PASS">
+        <test-method signature="openAppointment()[pri:1, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:53:11 IST" name="openAppointment" finished-at="2024-07-04T09:53:20 IST" duration-ms="8998" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAppointment -->
-        <test-method signature="fstDoctorAppointment()[pri:2, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-07-03T10:26:28 IST" name="fstDoctorAppointment" finished-at="2024-07-03T10:26:43 IST" duration-ms="15754" status="PASS">
+        <test-method signature="firstDoctor()[pri:2, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:53:20 IST" name="firstDoctor" finished-at="2024-07-04T09:53:37 IST" duration-ms="17753" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fstDoctorAppointment -->
-        <test-method signature="closeAppointment()[pri:3, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-07-03T10:26:43 IST" name="closeAppointment" finished-at="2024-07-03T10:26:46 IST" duration-ms="3078" status="PASS">
+        </test-method> <!-- firstDoctor -->
+        <test-method signature="secondDoctor()[pri:3, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:53:37 IST" name="secondDoctor" finished-at="2024-07-04T09:53:51 IST" duration-ms="13960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondDoctor -->
+        <test-method signature="thirdDoctor()[pri:4, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:53:51 IST" name="thirdDoctor" finished-at="2024-07-04T09:54:05 IST" duration-ms="13983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdDoctor -->
+        <test-method signature="closeAppointment()[pri:5, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:54:05 IST" name="closeAppointment" finished-at="2024-07-04T09:54:08 IST" duration-ms="3103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAppointment -->
-        <test-method signature="fstDoctorLogin()[pri:4, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-07-03T10:26:46 IST" name="fstDoctorLogin" finished-at="2024-07-03T10:27:07 IST" duration-ms="20267" status="PASS">
+        <test-method signature="fstDoctorLogin()[pri:6, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:54:08 IST" name="fstDoctorLogin" finished-at="2024-07-04T09:54:19 IST" duration-ms="10787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fstDoctorLogin -->
-        <test-method signature="assignToDoctor()[pri:5, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-07-03T10:27:07 IST" name="assignToDoctor" finished-at="2024-07-03T10:27:10 IST" duration-ms="3127" status="PASS">
+        <test-method signature="fillFstDoctorData()[pri:7, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:54:19 IST" name="fillFstDoctorData" finished-at="2024-07-04T09:54:26 IST" duration-ms="7230" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- assignToDoctor -->
-        <test-method signature="assignedDocLogin()[pri:6, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-07-03T10:27:10 IST" name="assignedDocLogin" finished-at="2024-07-03T10:27:20 IST" duration-ms="10659" status="PASS">
+        </test-method> <!-- fillFstDoctorData -->
+        <test-method signature="sndDoctorLogin()[pri:8, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:54:26 IST" name="sndDoctorLogin" finished-at="2024-07-04T09:54:37 IST" duration-ms="10250" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- assignedDocLogin -->
-        <test-method signature="verifySndDoctorData()[pri:7, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-07-03T10:27:20 IST" name="verifySndDoctorData" finished-at="2024-07-03T10:27:23 IST" duration-ms="2967" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [376569] but found [971316]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [376569] but found [971316]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at com.akhilsystem_release.test.emr.DoctorAssign.verifySndDoctorData(DoctorAssign.java:142)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at com.akhilsystem_release.test.emr.TestRunner.main(TestRunner.java:49)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- sndDoctorLogin -->
+        <test-method signature="verifyFstDoctorData()[pri:9, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:54:37 IST" name="verifyFstDoctorData" finished-at="2024-07-04T09:54:41 IST" duration-ms="4210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFstDoctorData -->
+        <test-method signature="fillSndDoctorData()[pri:10, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:54:41 IST" name="fillSndDoctorData" finished-at="2024-07-04T09:54:44 IST" duration-ms="3015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillSndDoctorData -->
+        <test-method signature="trdDoctorLogin()[pri:11, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:54:44 IST" name="trdDoctorLogin" finished-at="2024-07-04T09:54:54 IST" duration-ms="10322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trdDoctorLogin -->
+        <test-method signature="verifySndDoctorData()[pri:12, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:54:54 IST" name="verifySndDoctorData" finished-at="2024-07-04T09:54:58 IST" duration-ms="4245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySndDoctorData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.akhilsystem_release.test.emr.DoctorAssign@1a052a00]" started-at="2024-07-03T10:27:23 IST" name="teardown" finished-at="2024-07-03T10:27:27 IST" duration-ms="3631" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.akhilsystem_release.test.emr.VisitWiseWebpart@1a052a00]" started-at="2024-07-04T09:54:58 IST" name="teardown" finished-at="2024-07-04T09:55:04 IST" duration-ms="5668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.akhilsystem_release.test.emr.DoctorAssign -->
+      </class> <!-- com.akhilsystem_release.test.emr.VisitWiseWebpart -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
