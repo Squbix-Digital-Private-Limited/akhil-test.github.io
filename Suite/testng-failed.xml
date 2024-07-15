@@ -6,15 +6,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.akhilsystem_release.test.emr.DoctorAssign">
+      <class name="com.akhilsystem_release.test.emr.VisitWiseWebpart">
         <methods>
           <include name="launch"/>
-          <include name="verifySndDoctorData"/>
           <include name="setup"/>
-          <include name="varifySndDocData"/>
+          <include name="fillFstDoctorData"/>
           <include name="teardown"/>
+          <include name="verifyFstDoctorData"/>
         </methods>
-      </class> <!-- com.akhilsystem_release.test.emr.DoctorAssign -->
+      </class> <!-- com.akhilsystem_release.test.emr.VisitWiseWebpart -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
