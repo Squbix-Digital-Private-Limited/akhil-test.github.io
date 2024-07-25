@@ -8,10 +8,20 @@
     <classes>
       <class name="com.akhilsystem_release.test.emr.VisitWiseWebpart">
         <methods>
-          <include name="launch"/>
+          <include name="closeAppointment"/>
+          <include name="trdDoctorLogin"/>
           <include name="setup"/>
-          <include name="fillFstDoctorData"/>
+          <include name="thirdDoctor"/>
+          <include name="openAppointment"/>
           <include name="teardown"/>
+          <include name="fillSndDoctorData"/>
+          <include name="verifySndDoctorData"/>
+          <include name="launch"/>
+          <include name="firstDoctor"/>
+          <include name="secondDoctor"/>
+          <include name="fstDoctorLogin"/>
+          <include name="fillFstDoctorData"/>
+          <include name="sndDoctorLogin"/>
           <include name="verifyFstDoctorData"/>
         </methods>
       </class> <!-- com.akhilsystem_release.test.emr.VisitWiseWebpart -->
